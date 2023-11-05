@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-app{
+    background-color: #dadbd3;
+    height: 100vh;
+  }
+  .bg-main{
+    background-color: #ededed;
+    box-shadow: -1px 4px 20px -6px rgb(0,0,0,0.7);
+  }
+  .sideNav{
+    flex: 0.300;
+    background-color: white;
+  }
+  .side_right{
+    display: flex;
+    gap: 25px;
+    padding-right: 10px;
+  }
+  .side_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+    padding-top: 10px;
+    border-right: 1px solid rgb(205, 205, 205);
+    background-color: #F0F2F5;
+    gap: 117px;
+  }
+  .side_search{
+    display: flex;
+    align-items: center;
+    background-color: #F0F2F5;
+    height: 39px;
+    padding: 5px;
+    border-radius: 8px;
+  }
+  .side-main{
+    position: fixed;
+    background-color: white;
+  }
+  .text2{
+   font-size: 26px;
+  }
+  .text{
+   font-size: 22px;
+   border-radius: 10px;
+  }
+  .bg-search-color{
+    background-color: #F0F2F5;
+    font-weight: 400;
+    color: #667781 !important;
+    border: 0;
+    outline:0;
+  }
+  .side_body{
+    flex: 1;
+    background-color: white;
+    overflow: scroll;
+    width: 408px;
+    margin-top: 7rem; 
+  }
+  .side_chat{
+   display: flex; 
+  }
+  .side_chat:hover{
+   background-color: #F0F2F5;
+  }
+  .borderLeft{
+    border-bottom: 1px solid #E9EDEF;
+  }
+  .chat{
+   background-image: url("https://i.pinimg.com/originals/39/cf/bc/39cfbc81276720ddf5003854e42c2769.jpg");
+   overflow: hidden;
+  }
+  .chat_header{
+    background-color: #F0F2F5;
+    position: fixed;
+   top: 0;
+  }
+  .chat_body{
+    width: 100vw;
+    margin-top: 5rem;
+   
+  }
+  .chat_footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #F0F2F5;
+    padding: 10px;
+    text-align: center;
+   
+    padding-left: 25px;
+  }
+  .marginLeftFull{
+    margin-left: 34rem;
+  }
+  .inputMr{
+    margin-right: 1rem;
+    padding-right: 555px;
+    outline: 0;
+    color: #667781;
+    margin-bottom: 0px;
+  }
+  
+
+}
+
+@layer utilities {
+  .login-header{
+    background-color: #00A884;
+    height: 225px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 25px;
+    padding-left: 180px;
+  }
+  .login-body{
+    background-color: white;
+    border: 1px solid rgb(226, 220, 220);
+    margin-top: 40px;
+    margin-right: 550px; 
+    margin-left: 28px;
+    padding-left: 28px;
+    padding-top: 22px;
+    padding-bottom: 22px; 
+    border-radius: 8px;
+    width: 800px;
+  }
+  .bg-sky{
+    background-color: #017561;
+  }
+  .bg-sky2{
+    background-color: #008069;
+  }
+  .sky3{
+    color: #00A884;
+  }
+  .main-con{
+    background-color: white;
+    width: 1000px;
+    position: absolute;
+    top: 100px;
+    left: 180px;
+    border-radius: 5px;
+    padding-left: 60px;
+  }
+  .community{
+    width: 407.5px;
+    height: 100vh;
+  }
+  .community2{
+    width: 407.5px;
+  }
+  .fonts{
+font-size: 23px;
+  }
+  .paddingMy{
+    margin-left: 530px;
+  }
+}
